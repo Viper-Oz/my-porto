@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Alfathiniro Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <img src="images/fotoo.png" alt="logo">
+                <h2><span style="color: #72a1dea2;">Ibrahim</span>Alfathiniro</h2>
+            </div>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <p><i class='bx bxl-youtube'></i></p>
+                <p><i class='bx bxl-github'></i></p>
+                <p><i class='bx bxl-linkedin-square'></i></p>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a><i class='bx bxl-youtube'></i></a>
+                <a><i class='bx bxl-github'></i></a>
+                <a><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero ">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title" >
+                    <i class='bx bxl-sketch'></i>
+                    My Portfolio
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000">Providing <span class="gradient">the best</span> Project <span class="gradient">Experience</span></h1>
+
+                <p>Saya berlatar belakang Teknik Informatika dengan minat pada analisis sistem, keamanan aplikasi, dan dasar jaringan. Saya belajar lewat project, dari aplikasi enkripsi file hingga lab ethical hacking.</p>
+
+                <button onclick="location.href='#contact'"><i class='bx bx-send'></i> Contact Me</button>
+
+            </div>
+
+            <div class="skills-video-box " >
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4"></video>
+            </div>
+
+            <div class="scroll-down"></div>
+        </section>
+
+        <section class="info-section" id="about">
+            <h1 class="section-title autoDisplay">Halo, Salam Kenal 👋</h1>
+            <div class="info-cards">
+                <div class="card ">
+                    <h1>Halo, Saya Ibra</h1>
+                    <p>Saya tertarik pada keamanan siber dan cara kerja sebuah sistem, mulai dari alur data hingga keamanan aplikasi. Saya suka menganalisis, menguji, dan belajar langsung lewat praktik.</p>
+                    <img src="images/foto.png" alt="">
+                </div>
+
+                <div class="card">
+                <h1>Tech Stack</h1>
+                <p>Keamanan siber, sistem, dan database, memahami cara kerjanya, belajar sambil praktik, dan terbuka pada teknologi baru.</p>
+                <img src="images/grid2.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h1>Terbuka untuk Peluang & Kolaborasi</h1>
+                    <p>Saya berdomisili di Indonesia dan terbuka untuk peluang di bidang IT, baik onsite, hybrid, maupun remote.</p>
+                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+                </div>
+
+                <div class="card">
+                <h1>Belajar Lewat Praktik Langsung</h1>
+                <p>Lab praktik, proyek nyata, dan sertifikasi membuat saya terus belajar. Saya senang memahami cara kerja sesuatu dan cara melindunginya.</p>
+                <img src="images/grid4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="my-project" id="projects">
+            <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur" >
+                    <video loop id="projectVideo1" src="videos/filesecure.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1><span class="gradient">FileSecure</span> Pengaman File</h1>
+                    <p>Aplikasi web untuk menyimpan file secara aman. File dienkripsi dengan AES-256-GCM, kuncinya diamankan RSA-3072, dan setiap aktivitas tercatat di audit log lengkap dengan laporan PDF. Dibuat dengan Python (Django) dan PostgreSQL.</p>
+                    <button onclick="window.open('https://viperzt.pythonanywhere.com/', '_blank')">
+                        <i class='bx bx-link-external'></i> To Project
+                    </button>
+            </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/N8N.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Chatbot <span class="gradient">AI</span> Asisten Belajar</h1>
+                    <p>Chatbot berbasis n8n dan Docker yang meringkas materi, membuat soal latihan singkat, dan menjawab pertanyaan berdasarkan materi yang disediakan.</p>
+                    <button onclick="window.open('https://t.me/SmartStudy_Assistantbot', '_blank')">
+                        <i class='bx bx-link-external'></i> To Project
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo3" src="videos/lms.mp4"></video>
+                </div>
+
+                <div class="project-info fadein-left">
+                    <h1>Sistem <span class="gradient">Informasi</span> Akademik</h1>
+                    <p>Sistem web dengan login multiuser, Role-Based Access Control, absensi, input nilai, integrasi Google Calendar, dan dashboard statistik. Dibuat dengan PHP dan MySQL.</p>
+                    <button onclick="window.open('https://edu-smart.42web.io/index.php', '_blank')">
+                        <i class='bx bx-link-external'></i> To Project
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section" id="skills">
+            <h1 class="section-title autoDisplay">
+                My Skills 💪
+            </h1>
+            <div class="skills-box autoDisplay">
+                <img class="skills-image" src="images/digital brain (2).png" alt="">
+                <div class="Designer">
+                    <h1 class="gradient">Security <i class='bx bx-laptop'></i></h1>
+                    <p>Saya memiliki dasar pengujian keamanan web seperti SQL Injection, XSS, dan session hijacking, serta analisis malware dan kriptografi dasar, menggunakan tools seperti Burp Suite dan Nmap.</p>    
+                </div>
+
+                <div class="coder">
+                    <h1 class="gradient">Sistem <i class='bx bx-code-block'></i></h1>
+                    <p>Saya terbiasa dengan Linux, Windows, virtual machine, dan dasar Docker. Saya juga berpengalaman dengan database PostgreSQL dan MySQL serta membuat aplikasi dengan Python (Django) dan PHP.</p>
+                </div>
+
+                <div class="slider" reverse="true" style="
+                --width: 100px;
+                --height: 100px;
+                --quantity: 9;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/1.png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/2.png" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="images/3.webp" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="images/php.png" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/python.png" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="images/6.png" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/7.png" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="images/8.png" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="images/cyberr.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="slider-spacer"></div>
+        <section class="contact-section " id="contact">
+            <h1 class="section-title autoDisplay">Mari Terhubung 😊</h1>
+
+            <div class="social-box autoBlur">
+                <a href="tel:+6285117422587"><i class='bx bxs-phone'></i> +62 851-1742-2587</a>
+                <a href="mailto:hibra0325@gmail.com"><i class='bx bx-envelope'></i> hibra0325@gmail.com</a>
+                <a href="https://www.linkedin.com/in/ibrahimalfathiniro" target="_blank"><i class='bx bxl-linkedin-square'></i> linkedin.com/in/ibrahimalfathiniro</a>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                </div>
+            </div>
+
+            <form
+                id="contactForm"
+                class="contact-box autoBlur" 
+                action="https://formspree.io/f/mgvnqqrj" 
+                method="POST"
+            >
+                <p>Jika Anda punya peluang, proyek, atau sekadar ingin berkenalan, silakan tinggalkan pesan. Dengan senang hati saya akan membalasnya.</p>
+
+                <p>Full Name</p>
+                <input
+                    placeholder="Your Full name"
+                    type="text"
+                    name="name"
+                    id="nameInput"
+                    required
+                >
+
+                <p>Email Address</p>
+                <input
+                    placeholder="Your Email"
+                    type="email"
+                    name="email"
+                    id="emailInput"
+                    required
+                >
+
+                <p>Your Message</p>
+                <input
+                    class="input-message"
+                    type="text"
+                    placeholder="Share your thoughts..."
+                    name="message"
+                    id="messageInput"
+                    required
+                >
+
+                <button type="submit">
+                    Send Message <i class='bx bx-mail-send'></i>
+                </button>
+            </form>
+        </section>
+
+        <section class="footer">
+            <h1>©️2026, Made by Ibrahim Alfathiniro</h1>
+            <div class="box-icons">
+                <p><i class='bx bxl-github'></i></p>
+                <p><i class='bx bxl-linkedin-square'></i></p>
+            </div>
+        </section>
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script >
+      AOS.init();
+    </script>
+</body>
+</html>
